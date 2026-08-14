@@ -12,6 +12,7 @@ CS at Fordham in New York, writing code for clients since 16 — started with fu
 
 <br/> <img src="off.svg" width="100%" alt="Off the keyboard" />
  Mongolian (native) · English (fluent)· Russian (fluent)
+ 
  Interests: fintech & markets, consumer products, brand building
 
 <br/> <img src="eyebrow-contact.svg" width="100%" alt="Contact" />
