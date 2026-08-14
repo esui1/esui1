@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 30" width="830" height="30">
+  <style>
+    text { font-family: Jost, Futura, "Century Gothic", sans-serif; font-size: 11px; letter-spacing: 5px; fill: #8A8476; }
+    line { stroke: rgba(11,17,28,.18); stroke-width: 1; }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #8FA0BC; }
+      line { stroke: rgba(214,219,224,.22); }
+    }
+  </style>
+  <text x="0" y="19">O F F &#160; T H E &#160; K E Y B O A R D</text>
+  <line x1="330" y1="15" x2="830" y2="15"/>
+</svg>
