@@ -16,5 +16,5 @@ CS at Fordham in New York, writing code for clients since 16 — started with fu
  Interests: fintech & markets, consumer products, brand building
 
 <br/> <img src="contact.svg" width="100%" alt="Contact" />
-
+eesui50@gmail.com
 
