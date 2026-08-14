@@ -11,7 +11,7 @@ YS New York — a quiet-luxury accessories brand. The products, the factory rela
 
 Mielando (Italy) — full-stack development, brand & product design, international client communications. Started at 16. Pinecone Academy — Senior Developer diploma, before university.
 
-<br/> <img src="eyebrow-elsewhere.svg" width="100%" alt="Off the keyboard" />
+<br/> <img src="off.svg" width="100%" alt="Off the keyboard" />
 
 Swing trading gold on macro events · luxury goods authentication · Buddhist philosophy Mongolian (native) · English · Russian
 
