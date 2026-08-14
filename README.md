@@ -1,4 +1,4 @@
-# Hi, I'm Yesui 👋
+# Hi, I'm Yesui 
 
 CS student at Fordham University (Lincoln Center) in New York. I've been building and shipping software since I was 16 — starting with full-stack development and international client work for Mielando, an Italian luxury furniture brand, and now running two products of my own.
 
