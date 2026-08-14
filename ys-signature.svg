@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" width="320" height="160">
+  <style>
+    path {
+      fill: none;
+      stroke: #1a1a1a;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    @media (prefers-color-scheme: dark) {
+      path { stroke: #f5f2ea; }
+    }
+  </style>
+
+  <!-- Y -->
+  <path pathLength="1" d="M 78 34
+           C 84 52, 96 74, 108 88
+           C 114 95, 120 99, 126 100
+           C 134 72, 142 48, 152 30
+           C 143 62, 132 100, 118 128
+           C 111 141, 102 150, 92 148
+           C 84 146, 82 137, 88 131"
+        stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0"
+             dur="1.8s" begin="0.2s" fill="freeze"
+             calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1" values="1;0"/>
+  </path>
+
+  <!-- S -->
+  <path pathLength="1" d="M 226 44
+           C 218 32, 196 30, 186 42
+           C 176 54, 186 66, 200 72
+           C 216 79, 230 88, 226 104
+           C 222 120, 198 126, 184 116
+           C 176 110, 176 102, 181 98"
+        stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0"
+             dur="1.4s" begin="2.0s" fill="freeze"
+             calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1" values="1;0"/>
+  </path>
+
+  <!-- underline -->
+  <path pathLength="1" d="M 70 138 C 130 148, 210 146, 252 132"
+        stroke-width="1.4"
+        stroke-dasharray="1" stroke-dashoffset="1">
+    <animate attributeName="stroke-dashoffset" from="1" to="0"
+             dur="0.9s" begin="3.4s" fill="freeze"
+             calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1" values="1;0"/>
+  </path>
+</svg>
