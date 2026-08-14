@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 74" width="830" height="74">
+  <style>
+    .serif { font-family: "Bodoni Moda", Didot, "Bodoni 72", "Playfair Display", Georgia, serif; font-size: 34px; font-weight: 400; fill: #0B111C; }
+    .serif em { font-style: italic; }
+    .cap { font-family: Jost, Futura, "Century Gothic", sans-serif; font-size: 10px; letter-spacing: 4.6px; fill: #8A8476; }
+    @media (prefers-color-scheme: dark) {
+      .serif { fill: #E9E5DC; }
+      .cap { fill: #8FA0BC; }
+    }
+  </style>
+  <text class="serif" x="415" y="38" text-anchor="middle">I ship products<tspan font-style="italic">.</tspan></text>
+  <text class="cap" x="415" y="66" text-anchor="middle">N E W &#160; Y O R K &#160; · &#160; U L A A N B A A T A R</text>
+</svg>
