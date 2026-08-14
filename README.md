@@ -12,10 +12,10 @@ Vanilla HTML/CSS/JS — no frameworks, no build step, fast by design.
 
 ## Background
 
-- 💼 4 years of full-stack development and client communications (Mielando, Italy)
-- 🎓 CS @ Fordham · Pinecone Academy Senior Developer diploma
-- 🌍 Mongolian (native) · English (fluent) · Russian (fluent)
-- 📈 Interests: fintech & markets, consumer products, brand building
+- 4 years of full-stack development and client communications (Mielando, Italy)
+- CS @ Fordham · Pinecone Academy Senior Developer diploma
+- Mongolian (native) · English (fluent) · Russian (fluent)
+- Interests: fintech & markets, consumer products, brand building
 
 ## Reach me
 
