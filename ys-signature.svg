@@ -1,50 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" width="320" height="160">
   <style>
-    path {
+    .stroke {
       fill: none;
       stroke: #1a1a1a;
-      stroke-width: 2.2;
       stroke-linecap: round;
       stroke-linejoin: round;
     }
+    .pen { fill: #1a1a1a; }
     @media (prefers-color-scheme: dark) {
-      path { stroke: #f5f2ea; }
+      .stroke { stroke: #f5f2ea; }
+      .pen { fill: #f5f2ea; }
     }
   </style>
 
-  <!-- Y -->
-  <path pathLength="1" d="M 78 34
-           C 84 52, 96 74, 108 88
-           C 114 95, 120 99, 126 100
-           C 134 72, 142 48, 152 30
-           C 143 62, 132 100, 118 128
-           C 111 141, 102 150, 92 148
-           C 84 146, 82 137, 88 131"
-        stroke-dasharray="1" stroke-dashoffset="1">
-    <animate attributeName="stroke-dashoffset" from="1" to="0"
-             dur="1.8s" begin="0.2s" fill="freeze"
-             calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1" values="1;0"/>
-  </path>
+  <g opacity="1">
+    <!-- master timeline: full visible through draw+hold, smooth 1s fade at the end, then restart -->
+    <animate id="loop" attributeName="opacity"
+             values="1;1;0" keyTimes="0;0.857;1"
+             dur="7s" begin="0s;loop.end" fill="remove"
+             calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1"/>
 
-  <!-- S -->
-  <path pathLength="1" d="M 226 44
-           C 218 32, 196 30, 186 42
-           C 176 54, 186 66, 200 72
-           C 216 79, 230 88, 226 104
-           C 222 120, 198 126, 184 116
-           C 176 110, 176 102, 181 98"
-        stroke-dasharray="1" stroke-dashoffset="1">
-    <animate attributeName="stroke-dashoffset" from="1" to="0"
-             dur="1.4s" begin="2.0s" fill="freeze"
-             calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1" values="1;0"/>
-  </path>
+    <!-- ===== Y ===== -->
+    <path class="stroke" pathLength="1" stroke-width="2.2"
+          d="M 78 34 C 84 52, 96 74, 108 88 C 114 95, 120 99, 126 100 C 134 72, 142 48, 152 30 C 143 62, 132 100, 118 128 C 111 141, 102 150, 92 148 C 84 146, 82 137, 88 131"
+          stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;0" dur="1.8s" begin="loop.begin+0.2s" fill="freeze"
+               calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
+      <animate attributeName="stroke-width" values="0.8;2.6;2.2" keyTimes="0;0.6;1" dur="1.8s"
+               begin="loop.begin+0.2s" fill="freeze"/>
+      <animate attributeName="stroke-dashoffset" values="1" dur="0.01s" begin="loop.begin" fill="freeze"/>
+    </path>
 
-  <!-- underline -->
-  <path pathLength="1" d="M 70 138 C 130 148, 210 146, 252 132"
-        stroke-width="1.4"
-        stroke-dasharray="1" stroke-dashoffset="1">
-    <animate attributeName="stroke-dashoffset" from="1" to="0"
-             dur="0.9s" begin="3.4s" fill="freeze"
-             calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1" values="1;0"/>
-  </path>
+    <!-- ===== S ===== -->
+    <path class="stroke" pathLength="1" stroke-width="2.2"
+          d="M 226 44 C 218 32, 196 30, 186 42 C 176 54, 186 66, 200 72 C 216 79, 230 88, 226 104 C 222 120, 198 126, 184 116 C 176 110, 176 102, 181 98"
+          stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;0" dur="1.4s" begin="loop.begin+2.1s" fill="freeze"
+               calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
+      <animate attributeName="stroke-width" values="0.8;2.6;2.2" keyTimes="0;0.6;1" dur="1.4s"
+               begin="loop.begin+2.1s" fill="freeze"/>
+      <animate attributeName="stroke-dashoffset" values="1" dur="0.01s" begin="loop.begin" fill="freeze"/>
+    </path>
+
+    <!-- ===== underline flourish ===== -->
+    <path class="stroke" pathLength="1" stroke-width="1.4"
+          d="M 70 138 C 130 148, 210 146, 252 132"
+          stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;0" dur="0.8s" begin="loop.begin+3.6s" fill="freeze"
+               calcMode="spline" keySplines="0.2 0 0.1 1" keyTimes="0;1"/>
+      <animate attributeName="stroke-dashoffset" values="1" dur="0.01s" begin="loop.begin" fill="freeze"/>
+    </path>
+
+    <!-- ===== pen tip ===== -->
+    <circle class="pen" r="3.2" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.01s" begin="loop.begin+0.2s" fill="freeze"/>
+      <animateMotion dur="1.8s" begin="loop.begin+0.2s" fill="freeze"
+                     calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"
+                     path="M 78 34 C 84 52, 96 74, 108 88 C 114 95, 120 99, 126 100 C 134 72, 142 48, 152 30 C 143 62, 132 100, 118 128 C 111 141, 102 150, 92 148 C 84 146, 82 137, 88 131"/>
+      <animate attributeName="opacity" values="1;0" dur="0.15s" begin="loop.begin+2.0s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="0.01s" begin="loop.begin+2.1s" fill="freeze"/>
+      <animateMotion dur="1.4s" begin="loop.begin+2.1s" fill="freeze"
+                     calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"
+                     path="M 226 44 C 218 32, 196 30, 186 42 C 176 54, 186 66, 200 72 C 216 79, 230 88, 226 104 C 222 120, 198 126, 184 116 C 176 110, 176 102, 181 98"/>
+      <animate attributeName="opacity" values="1;0" dur="0.15s" begin="loop.begin+3.5s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;1" dur="0.01s" begin="loop.begin+3.6s" fill="freeze"/>
+      <animateMotion dur="0.8s" begin="loop.begin+3.6s" fill="freeze"
+                     calcMode="spline" keySplines="0.2 0 0.1 1" keyTimes="0;1"
+                     path="M 70 138 C 130 148, 210 146, 252 132"/>
+      <animate attributeName="opacity" values="1;0" dur="0.3s" begin="loop.begin+4.4s" fill="freeze"/>
+    </circle>
+  </g>
 </svg>
