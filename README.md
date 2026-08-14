@@ -1,7 +1,7 @@
 <p align="center">
   <img src="ys-signature.svg" width="320" alt="Yesui" />
 </p>
-<p align="center"> <img src="ys-signature.svg" width="320" alt="Yesui" /> </p> <p align="center"> <img src="tagline.svg" width="700" alt="New York · Ulaanbaatar" /> </p> <br/> <img src="now.svg" width="100%" alt="Now" />
+<p align="center"> </p> <p align="center"> <img src="tagline.svg" width="700" alt="New York · Ulaanbaatar" /> </p> <br/> <img src="now.svg" width="100%" alt="Now" />
 
 CS at Fordham in New York, writing code for clients since 16 — started with full-stack work for an Italian luxury furniture brand, now building two of my own products.
 
