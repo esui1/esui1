@@ -1,25 +1,20 @@
 <p align="center">
   <img src="ys-signature.svg" width="320" alt="Yesui" />
 </p>
-Hi, I'm Yesui 
+<p align="center"> <img src="signature.svg" width="320" alt="Yesui" /> </p> <p align="center"> <img src="tagline.svg" width="700" alt="I ship products. New York · Ulaanbaatar" /> </p> <br/> <img src="eyebrow-now.svg" width="100%" alt="Now" />
 
-CS student at Fordham University (Lincoln Center) in New York. I've been building and shipping software since I was 16 — starting with full-stack development and international client work for Mielando, an Italian luxury furniture brand, and now running two products of my own.
+Bloomi — science-based cycle tracking, built solo from data model to App Store. React Native · TypeScript · Expo · Zustand · Supabase · RevenueCat Most cycle trackers are ad-funded and unscientific. Bloomi is neither.
 
-## What I'm building
+YS New York — a quiet-luxury accessories brand. The products, the factory relationships, and the e-commerce site — hand-coded, zero frontend dependencies, Node + Stripe behind it. L'Écharpe Monogramme · Édition 001—100
 
-**Bloomi** — a science-based menstrual cycle tracking app.
-React Native · TypeScript · Expo · Zustand · Supabase · RevenueCat
+<br/> <img src="eyebrow-before.svg" width="100%" alt="Before" />
 
-**YS New York** — a luxury scarf & accessories brand with a fully hand-coded, zero-dependency e-commerce site.
-Vanilla HTML/CSS/JS — no frameworks, no build step, fast by design.
+Mielando (Italy) — full-stack development, brand & product design, international client communications. Started at 16. Pinecone Academy — Senior Developer diploma, before university.
 
-## Background
+<br/> <img src="eyebrow-elsewhere.svg" width="100%" alt="Off the keyboard" />
 
-- 4 years of full-stack development and client communications (Mielando, Italy)
-- CS @ Fordham · Pinecone Academy Senior Developer diploma
-- Mongolian (native) · English (fluent) · Russian (fluent)
-- Interests: fintech & markets, consumer products, brand building
+Swing trading gold on macro events · luxury goods authentication · Buddhist philosophy Mongolian (native) · English · Russian
 
-## Reach me
+<br/> <img src="eyebrow-contact.svg" width="100%" alt="Contact" />
 
- eesui50@gmail.com
+LinkedIn · eesui50@gmail.com
