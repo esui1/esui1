@@ -19,4 +19,4 @@ Vanilla HTML/CSS/JS — no frameworks, no build step, fast by design.
 
 ## Reach me
 
-· eesui50@gmail.com
+ eesui50@gmail.com
