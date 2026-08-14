@@ -1,7 +1,7 @@
 <p align="center">
   <img src="ys-signature.svg" width="320" alt="Yesui" />
 </p>
-<p align="center"> <img src="signature.svg" width="320" alt="Yesui" /> </p> <p align="center"> <img src="tagline.svg" width="700" alt="I ship products. New York · Ulaanbaatar" /> </p> <br/> <img src="eyebrow-now.svg" width="100%" alt="Now" />
+<p align="center"> <img src="signature.svg" width="320" alt="Yesui" /> </p> <p align="center"> <img src="tagline.svg" width="700" alt="I ship products. New York · Ulaanbaatar" /> </p> <br/> <img src="now.svg" width="100%" alt="Now" />
 
 Bloomi — science-based cycle tracking, built solo from data model to App Store. React Native · TypeScript · Expo · Zustand · Supabase · RevenueCat Most cycle trackers are ad-funded and unscientific. Bloomi is neither.
 
