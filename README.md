@@ -3,18 +3,17 @@
 </p>
 <p align="center"> <img src="signature.svg" width="320" alt="Yesui" /> </p> <p align="center"> <img src="tagline.svg" width="700" alt="New York · Ulaanbaatar" /> </p> <br/> <img src="now.svg" width="100%" alt="Now" />
 
-Bloomi — science-based cycle tracking, built solo from data model to App Store. React Native · TypeScript · Expo · Zustand · Supabase · RevenueCat Most cycle trackers are ad-funded and unscientific. Bloomi is neither.
-
-YS New York — a quiet-luxury accessories brand. The products, the factory relationships, and the e-commerce site — hand-coded, zero frontend dependencies, Node + Stripe behind it. L'Écharpe Monogramme · Édition 001—100
+CS at Fordham in New York, writing code for clients since 16 — started with full-stack work for an Italian luxury furniture brand, now building two of my own products.
 
 <br/> <img src="eyebrow-before.svg" width="100%" alt="Before" />
 
-Mielando (Italy) — full-stack development, brand & product design, international client communications. Started at 16. Pinecone Academy — Senior Developer diploma, before university.
+- Mielando** (Italy) — full-stack development, brand & product design, international client communications. Four years, started at 16.
+- Pinecone Academy** — Senior Developer diploma, before university.
 
 <br/> <img src="off.svg" width="100%" alt="Off the keyboard" />
-
-Swing trading gold on macro events · luxury goods authentication · Buddhist philosophy Mongolian (native) · English · Russian
+ Mongolian (native) · English (fluent)· Russian (fluent)
+ Interests: fintech & markets, consumer products, brand building
 
 <br/> <img src="eyebrow-contact.svg" width="100%" alt="Contact" />
 
-LinkedIn · eesui50@gmail.com
+
