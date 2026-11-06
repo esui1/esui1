@@ -8,7 +8,7 @@
 
 <br/> <img src="eyebrow-before.svg" width="100%" alt="Before" />
 
-- Mielando (Italy) — full-stack development, brand & product design, international client communications. Four years, started at 16.
+- Mielando (Italy) — full-stack development, brand & product design, international client communications.
 - Pinecone Academy — Senior Developer diploma, before university.
 
 <br/> <img src="off.svg" width="100%" alt="Off the keyboard" />
